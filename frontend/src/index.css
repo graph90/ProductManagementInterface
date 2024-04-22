@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Light gray background */
+  color: #333; /* Dark gray text color */
+}
+
+/* Style for buttons */
+button {
+  padding: 10px 20px; /* Padding around the button text */
+  background-color: #007bff; /* Blue background color */
+  color: #fff; /* White text color */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Add border radius */
+  cursor: pointer; /* Add pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for background color change */
+}
+
+/* Hover style for buttons */
+button:hover {
+  background-color: #0056b3; /* Darker blue background color on hover */
+}
+
+/* Style for navigation links */
+nav ul {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline; /* Display list items inline */
+  margin-right: 10px; /* Add space between list items */
+}
+
+/* Style for anchor tags inside navigation */
+nav a {
+  text-decoration: none; /* Remove underline */
+  color: #007bff; /* Blue text color */
+  transition: color 0.3s; /* Smooth transition for text color change */
+}
+
+/* Hover style for anchor tags */
+nav a:hover {
+  color: #0056b3; /* Darker blue text color on hover */
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
